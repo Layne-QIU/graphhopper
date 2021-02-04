@@ -35,4 +35,3 @@ jobs:
           mvn -B -DskipTests -Pskip-shaded-web-jar -Pskip-tools-jar source:jar deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
